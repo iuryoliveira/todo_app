@@ -8,5 +8,5 @@ module.exports = function(server) {
 
     //Todo routes
     const todoService = require('../api/todo/todoService')
-    todoService.register(router, './todos')
+    todoService.register(router, '/todos') //nome da rota
 }
