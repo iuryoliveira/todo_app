@@ -7,7 +7,7 @@ export default class Todo extends Component {
     render() {
         return (
             <div>
-                <h1> Componente Todo </h1>
+                <h1>Tarefas</h1>
             </div>
         )
     }
